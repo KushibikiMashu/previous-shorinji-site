@@ -1,0 +1,129 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="hptop.css">
+<title>京都大学少林寺拳法部</title>
+
+<script src="./js/jquery-1.10.2.min.js"></script>
+<script>
+$(function() {
+	const MENU_HTML = "menu.html";
+	function setNavi () {
+		$.get(
+			MENU_HTML,
+			function (data) {
+				$('.menu').html(data)
+			}
+		);
+	}
+	setNavi();
+});
+</script>
+
+<style type="text/css">
+
+.menu {
+	font-size: 1.5em;
+	width : auto; /* リキッドデザインにするため*/
+	height : 30px;
+	background-color : midnightblue;
+}
+
+.menu ul {
+	margin; 0;
+	padding: 0;
+	width: 710px; /*　横幅の最小値 */
+}
+
+.menu li {
+	list-style-type: none;
+	float: left;
+}
+
+.menu li a {
+	display: block;
+	width: 100px;
+	line-height: 30px;
+	border-right: solid 1px #ffffff;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	background-color: navy;
+}
+.menu li a:hover {
+	background-color: firebrick;
+}
+
+</style>
+
+
+
+</head>
+<body>
+<div id="main">
+
+<h1>京都大学体育会少林寺拳法部</h1>
+
+<div class="menu"><ul>
+<li><a href="menu1.html">新入生へ</a></li>
+<li><a href="menu2.html">活動内容</a></li>
+<li><a href="menu3.html">部員紹介</a></li>
+<li><a href="menu4.html">写真</a></li>
+<li><a href="menu5.html">動画</a></li>
+<li><a href="menu6.html">叡拳会</a></li>
+<li><a href="menu7.html">リンク</a></li>
+</ul></div>
+
+
+<h2>写真</h2>
+
+
+<h1>大会（2017年度）</h1>
+
+
+
+
+
+<br clear="left">
+
+<h2>山城ブロック交流大会</h2>
+
+<p>
+<img src="pict/17uji1.jpg" alt="大会" align="left">今年はいつもの龍谷、京女だけでなく、立命や京産も出場していて規模が大きくなりましたね。初出場の寺島吉田が堂々の２位でした！</p>
+<br clear="left">
+
+<h2>京都学生大会</h2>
+<p>
+<img src="pict/17kyotogakusei1.jpg" alt="大会" align="left">京都学生大会です。ここから大会ラッシュなのでどんどん経験を積んで成長していきましょう！</p>
+<br clear="left">
+<p>
+<img src="pict/17kyotogakusei4.JPG" alt="大会" align="left">集合写真です。</p>
+<br clear="left">
+
+<h2>全日本学生大会</h2>
+
+<p>
+<img src="pict/17zenniti1.JPG" alt="大会" align="left">日本武道館にて、全日本学生大会です。毎年これだけの人数の拳士が集うのはすごいですね。</p>
+<br clear="left">
+<p>
+<img src="pict/17zenniti2.JPG" alt="大会" align="left">部旗です。</p>
+<br clear="left">
+<p>
+<img src="pict/17zenniti3.JPG" alt="大会" align="left">演武では入賞することはできませんでしたが、これを糧として頑張っていきたいです。</p>
+<br clear="left">
+
+<h2>関西新人大会</h2>
+
+<p>
+<img src="pict/17kansaisinnjinn1.JPG" alt="大会" align="left">関西新人大会です。</p>
+<br clear="left">
+<p>
+<img src="pict/17kansaisinnjinn2.JPG" alt="大会" align="left">集合写真です。演武、運用法ともに多数が予選を通過し、入賞者も出ました！</p>
+<br clear="left">
+
+<p><a href="menu4.html">ひとつ前に戻る</a></p>
+<p><a href="index.html">TOPに戻る</a></p>
+
+</div>
+</body>
+</html>

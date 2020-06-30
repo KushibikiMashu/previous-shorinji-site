@@ -1,0 +1,150 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="hptop.css">
+<title>京都大学少林寺拳法部</title>
+
+<script src="./js/jquery-1.10.2.min.js"></script>
+<script>
+$(function() {
+	const MENU_HTML = "menu.html";
+	function setNavi () {
+		$.get(
+			MENU_HTML,
+			function (data) {
+				$('.menu').html(data)
+			}
+		);
+	}
+	setNavi();
+});
+</script>
+
+<style type="text/css">
+
+.menu {
+	font-size: 1.5em;
+	width : auto; /* リキッドデザインにするため*/
+	height : 30px;
+	background-color : midnightblue;
+}
+
+.menu ul {
+	margin; 0;
+	padding: 0;
+	width: 710px; /*　横幅の最小値 */
+}
+
+.menu li {
+	list-style-type: none;
+	float: left;
+}
+
+.menu li a {
+	display: block;
+	width: 100px;
+	line-height: 30px;
+	border-right: solid 1px #ffffff;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	background-color: navy;
+}
+.menu li a:hover {
+	background-color: firebrick;
+}
+
+</style>
+
+
+
+</head>
+<body>
+<div id="main">
+
+<h1>京都大学体育会少林寺拳法部</h1>
+
+<div class="menu"><ul>
+<li><a href="menu1.html">新入生へ</a></li>
+<li><a href="menu2.html">活動内容</a></li>
+<li><a href="menu3.html">部員紹介</a></li>
+<li><a href="menu4.html">写真</a></li>
+<li><a href="menu5.html">動画</a></li>
+<li><a href="menu6.html">叡拳会</a></li>
+<li><a href="menu7.html">リンク</a></li>
+</ul></div>
+
+
+<h2>写真</h2>
+
+
+<h1>大会（2018年度）</h1>
+
+
+
+
+
+<br clear="left">
+
+
+<h2>京都府大会</h2>
+
+<p>
+<img src="pict/18kyototaikai.JPG" alt="大会" align="left">集合写真です。今年は全ての組演武が同じ組でおこなわれたため大混戦でしたが、見事入賞者も出ました！</p>
+<br clear="left">
+
+<h2>関西学生大会</h2>
+<p>
+<img src="pict/18kansaisinnjinn1.JPG" alt="大会" align="left">演武の１コマ</p>
+<br clear="left">
+<p>
+<img src="pict/18kansaisinnjinn2.JPG" alt="大会" align="left">団演も出場しました(大阪大学さんとは同点でした。七帝戦は勝つぞ！)</p>
+<br clear="left">
+<p>
+<img src="pict/18kansaisinnjinn3.JPG" alt="大会" align="left">今年は運用法が特に好調で団体３位でした！演武も多数が本戦出場できました。</p>
+<br clear="left">
+<p>
+
+<h2>山城ブロック交流大会</h2>
+
+<p>
+<img src="pict/18uji1.jpg" alt="大会" align="left">今年は全国大会と日付がかぶってしまい二回生一組と一回生のみの出場となり、残念ながら入賞者は出ませんでした。写真はあと1点で入賞だった宮本川畑ペア。</p>
+<br clear="left">
+
+<h2>2018年少林寺拳法全国大会in群馬</h2>
+
+<p>
+<img src="pict/18zennkoku1.jpg" alt="大会" align="left">今年は団体演武の部で参加となりました。結果こそ予選落ちではありましたが得られたものはあったはずです。</p>
+<br clear="left">
+
+<h2>全日本学生大会</h2>
+
+<p>
+<img src="pict/18zenniti1.jpg" alt="大会" align="left">日本武道館にて、全日本学生大会です。毎年のテーマは雲外蒼天、雲は苦労や乗り越えるべきものの暗示ですが会場にひしめく拳士を雲に見立てられそうな光景です。乗り越えるべきものとしてあながち間違ってもいない気もします。</p>
+<br clear="left">
+<p>
+<img src="pict/18zenniti2.jpg" alt="大会" align="left">立合評価法では男子中量級の部で小畑さんが2位、女子軽量級の部でらなさんが6位に入賞されました。</p>
+<br clear="left">
+<p>
+<img src="pict/18zenniti3.jpg" alt="大会" align="left">演武では入賞することはできませんでしたが、これを糧として頑張っていきたいです。</p>
+<br clear="left">
+
+<h2>関西学生新人大会</h2>
+
+<p>
+<img src="pict/18kansaigakuseisinjin1.jpg" alt="大会" align="left">演武では本選に多くが出場し、前田さん佑妃さんペアが入賞しました。</p>
+<br clear="left">
+<p>
+<img src="pict/18kansaigakuseisinjin2.png" alt="大会" align="left">立合評価法でもベスト１６入りが多く、岩崎さんが重量級で3位に入賞しました。</p>
+<br clear="left">
+
+<h2>京都学生大会</h2>
+
+<p>
+<img src="pict/18kyoutogakusei.png" alt="大会" align="left">2018年最後の大会です。１回生も含め多くが入賞し京都大学として３位に入賞し本年の締めとして十分な結果を残しました。</p>
+<br clear="left">
+
+
+</div>
+</body>
+</html>

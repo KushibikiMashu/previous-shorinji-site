@@ -1,0 +1,117 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<link rel="stylesheet" type="text/css" href="hptop.css">
+<title>京都大学少林寺拳法部</title>
+
+<script src="./js/jquery-1.10.2.min.js"></script>
+<script>
+$(function() {
+	const MENU_HTML = "menu.html";
+	function setNavi () {
+		$.get(
+			MENU_HTML,
+			function (data) {
+				$('.menu').html(data)
+			}
+		);
+	}
+	setNavi();
+});
+</script>
+
+<style type="text/css">
+
+.menu {
+	font-size: 1.5em;
+	width : auto; /* リキッドデザインにするため*/
+	height : 30px;
+	background-color : midnightblue;
+}
+
+.menu ul {
+	margin; 0;
+	padding: 0;
+	width: 710px; /*　横幅の最小値 */
+}
+
+.menu li {
+	list-style-type: none;
+	float: left;
+}
+
+.menu li a {
+	display: block;
+	width: 100px;
+	line-height: 30px;
+	border-right: solid 1px #ffffff;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	background-color: navy;
+}
+.menu li a:hover {
+	background-color: firebrick;
+}
+
+</style>
+
+
+
+</head>
+<body>
+<div id="main">
+
+<h1>京都大学体育会少林寺拳法部</h1>
+
+<div class="menu"><ul>
+<li><a href="menu1.html">新入生へ</a></li>
+<li><a href="menu2.html">活動内容</a></li>
+<li><a href="menu3.html">部員紹介</a></li>
+<li><a href="menu4.html">写真</a></li>
+<li><a href="menu5.html">動画</a></li>
+<li><a href="menu6.html">叡拳会</a></li>
+<li><a href="menu7.html">リンク</a></li>
+</ul></div>
+
+
+
+
+<h2>新入生へ</h2>
+<p><img src="pict/sinnyuseitop.jpg" alt="なんかやってる"></img></p>
+
+
+<h3>新歓練習</h3>
+<table border="3">
+<tr height="40"><td width="160" >月</td><td width="160">午後7:00～9:00</td><td width="160">体育館第二武道場</td></tr>
+<tr height="40"><td width="160" >木</td><td width="160">午後5:00～7:00</td><td width="160">体育館第二武道場</td></tr>
+<tr height="40"><td width="160" >金</td><td width="160">午後7:00～9:00</td><td width="160">体育館第一武道場</td></tr>
+
+</table>
+<p>で新歓練習実施中です！</p>
+
+
+<h3>新入生の皆さんへ</h3>
+
+<p>新入生の皆さん、ご入学おめでとうございます！<br>
+「大学から新しいことを始めてみたい」「せっかくだから為になる技術を身につけたい」「けど、大学の運動部って何だか気後れする…」という、そこのあなたには少林寺拳法部がオススメです！<br>
+部員のほとんどが大学から少林寺拳法を始めており、中には運動部未経験だった女性もいますが、今ではバリバリ活躍しているので、気後れすることは一切ありません。<br><br>
+
+我が部は、もちろん授業優先ですし、バイトや他の課外活動との掛け持ちも出来ます。おまけに長期休暇は合宿を除き基本的に自主練なので、時間の使い方には幅があります。<br><br>
+
+実際にどんな練習をしているのか、どんな競技を行っているのかと興味が湧いた方は、このHPの「活動内容」などの項目も見てみてください。<br>
+そして、是非とも一度、道場に見学にいらしてください。「百聞は一見にしかず」ですよ！<br><br>
+
+上回生、留学生の方々も大歓迎ですし、一年中いつでも新入部員を募集しているので、気軽に覗きに来てください。<br>
+皆さんに逢えるのを楽しみにしています！
+</p>
+
+
+
+
+
+<p><a href="index.html">TOPに戻る</a></p>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="hptop.css">
+<title>京都大学少林寺拳法部</title>
+
+<script src="./js/jquery-1.10.2.min.js"></script>
+<script>
+$(function() {
+	const MENU_HTML = "menu.html";
+	function setNavi () {
+		$.get(
+			MENU_HTML,
+			function (data) {
+				$('.menu').html(data)
+			}
+		);
+	}
+	setNavi();
+});
+</script>
+
+<style type="text/css">
+
+.menu {
+	font-size: 1.5em;
+	width : auto; /* リキッドデザインにするため*/
+	height : 30px;
+	background-color : midnightblue;
+}
+
+.menu ul {
+	margin; 0;
+	padding: 0;
+	width: 710px; /*　横幅の最小値 */
+}
+
+.menu li {
+	list-style-type: none;
+	float: left;
+}
+
+.menu li a {
+	display: block;
+	width: 100px;
+	line-height: 30px;
+	border-right: solid 1px #ffffff;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	background-color: navy;
+}
+.menu li a:hover {
+	background-color: firebrick;
+}
+
+</style>
+
+
+
+</head>
+<body>
+<div id="main">
+
+<h1>京都大学体育会少林寺拳法部</h1>
+
+<div class="menu"><ul>
+<li><a href="menu1.html">新入生へ</a></li>
+<li><a href="menu2.html">活動内容</a></li>
+<li><a href="menu3.html">部員紹介</a></li>
+<li><a href="menu4.html">写真</a></li>
+<li><a href="menu5.html">動画</a></li>
+<li><a href="menu6.html">叡拳会</a></li>
+<li><a href="menu7.html">リンク</a></li>
+</ul></div>
+
+
+
+
+<h2>リンク</h2>
+
+<h1>SNS</h1>
+
+<p>京都大学少林寺拳法部はSNSも使って日々の活動を紹介しています！</p>
+
+
+
+
+<h3><a href="https://twitter.com/kyotoshorinjiu">Twitter</a></h3>
+<p>京都大学少林寺拳法部のTwitterアカウントです。写真も豊富なので是非覗いてみてください！
+</p>
+
+
+<img src="pict/line2018.JPG" alt="line" align="left"></p>
+<br clear="left">
+<p>新入生はこちらのQRコードから新勧line登録お願いします！！
+</p>
+
+<h1>他大学少林寺拳法部</h1>
+<p>七大戦などで交流のある旧帝大を中心にリンクを貼ります。</p>
+
+<h3><a href="http://hokudaishorinji.web.fc2.com/">北海道大学少林寺拳法部</a></h3>
+<h3><a href="http://www.geocities.jp/tonpei_shorinji/">東北大学少林寺拳法部</a></h3>
+<h3><a href="http://ut-shorinji.net/">東京大学少林寺拳法部</a></h3>
+<h3><a href="http://handaishorinjikempo.jimdo.com/">大阪大学少林寺拳法部</a></h3>
+<h3><a href="http://www2.jimu.nagoya-u.ac.jp/syorinji/">名古屋大学少林寺拳法部</a></h3>
+<h3><a href="http://qusc.wiki.fc2.com/">九州大学少林寺拳法部</a></h3>
+
+
+
+
+
+<p><a href="index.html">TOPに戻る</a></p>
+
+</div>
+</body>
+</html>

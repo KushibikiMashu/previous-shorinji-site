@@ -1,0 +1,124 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="hptop.css">
+<title>京都大学少林寺拳法部</title>
+
+<script src="./js/jquery-1.10.2.min.js"></script>
+<script>
+$(function() {
+	const MENU_HTML = "menu.html";
+	function setNavi () {
+		$.get(
+			MENU_HTML,
+			function (data) {
+				$('.menu').html(data)
+			}
+		);
+	}
+	setNavi();
+});
+</script>
+
+<style type="text/css">
+
+.menu {
+	font-size: 1.5em;
+	width : auto; /* リキッドデザインにするため*/
+	height : 30px;
+	background-color : midnightblue;
+}
+
+.menu ul {
+	margin; 0;
+	padding: 0;
+	width: 710px; /*　横幅の最小値 */
+}
+
+.menu li {
+	list-style-type: none;
+	float: left;
+}
+
+.menu li a {
+	display: block;
+	width: 100px;
+	line-height: 30px;
+	border-right: solid 1px #ffffff;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	background-color: navy;
+}
+.menu li a:hover {
+	background-color: firebrick;
+}
+
+</style>
+
+
+
+</head>
+<body>
+<div id="main">
+
+<h1>京都大学体育会少林寺拳法部</h1>
+
+<div class="menu"><ul>
+<li><a href="menu1.html">新入生へ</a></li>
+<li><a href="menu2.html">活動内容</a></li>
+<li><a href="menu3.html">部員紹介</a></li>
+<li><a href="menu4.html">写真</a></li>
+<li><a href="menu5.html">動画</a></li>
+<li><a href="menu6.html">叡拳会</a></li>
+<li><a href="menu7.html">リンク</a></li>
+</ul></div>
+
+
+
+
+<h2>写真</h2>
+
+
+<h1>夏合宿（2018年度）</h1>
+
+
+<p>
+<img src="pict/18natsugassyuku1.png" alt="夏合宿の写真" align="left">時間をふんだんに使った基本で、基礎から力をつけていきます。</p>
+<br clear="left">
+
+<p>
+<img src="pict/18natsugassyuku2.png" alt="夏合宿の写真" align="left">朝ジョグの時間です。心地よい潮風を受けながら早朝の宮津を駆け抜けます。</p>
+<br clear="left">
+
+<p>
+<img src="pict/18natsugassyuku3.png" alt="夏合宿の写真" align="left">術科の時間。八木監督より技術指導を賜ります。</p>
+<br clear="left">
+
+<p>
+<img src="pict/18natsugassyuku4.png" alt="夏合宿の写真" align="left">今年もこの部の創設者の一人、後神先輩のご講話を全員で聞きました。</p>
+<br clear="left">
+
+<p>
+<img src="pict/18natsugassyuku5.png" alt="夏合宿の写真" align="left">乱捕練習、お互い相手を倒さんと全力で頑張ります。</p>
+<br clear="left">
+
+<p>
+<img src="pict/18natsugassyuku6.png" alt="夏合宿の写真" align="left">天橋立を見ながらの１５kmマラソン、最後は天橋立を端から端まで走ります。一回生が根性を見せました。</p>
+<br clear="left">
+
+<p>
+<img src="pict/18natsugassyuku7.jpg" alt="夏合宿の写真" align="left">マラソン終わりの一時の休息。</p>
+<br clear="left">
+
+<p>
+<img src="pict/18natsugassyuku8.JPG" alt="夏合宿の写真" >１週間の夏合宿を終えた後の集合写真、全員お疲れ様でした。この夏合宿の経験を糧にこれからますます頑張っていきましょう。</p>
+<br clear="left">
+
+
+<p><a href="natsugassyuku.html">ひとつ前に戻る</a></p>
+<p><a href="index.html">TOPに戻る</a></p>
+
+</div>
+</body>
+</html>

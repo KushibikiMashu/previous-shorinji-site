@@ -1,0 +1,148 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="hptop.css">
+<title>京都大学少林寺拳法部</title>
+
+<script src="./js/jquery-1.10.2.min.js"></script>
+<script>
+$(function() {
+	const MENU_HTML = "menu.html";
+	function setNavi () {
+		$.get(
+			MENU_HTML,
+			function (data) {
+				$('.menu').html(data)
+			}
+		);
+	}
+	setNavi();
+});
+</script>
+
+<style type="text/css">
+
+.menu {
+	font-size: 1.5em;
+	width : auto; /* リキッドデザインにするため*/
+	height : 30px;
+	background-color : midnightblue;
+}
+
+.menu ul {
+	margin; 0;
+	padding: 0;
+	width: 710px; /*　横幅の最小値 */
+}
+
+.menu li {
+	list-style-type: none;
+	float: left;
+}
+
+.menu li a {
+	display: block;
+	width: 100px;
+	line-height: 30px;
+	border-right: solid 1px #ffffff;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	background-color: navy;
+}
+.menu li a:hover {
+	background-color: firebrick;
+}
+
+</style>
+
+
+
+</head>
+<body>
+<div id="main">
+
+<h1>京都大学体育会少林寺拳法部</h1>
+
+<div class="menu"><ul>
+<li><a href="menu1.html">新入生へ</a></li>
+<li><a href="menu2.html">活動内容</a></li>
+<li><a href="menu3.html">部員紹介</a></li>
+<li><a href="menu4.html">写真</a></li>
+<li><a href="menu5.html">動画</a></li>
+<li><a href="menu6.html">叡拳会</a></li>
+<li><a href="menu7.html">リンク</a></li>
+</ul></div>
+
+
+<p></p>
+
+
+
+
+
+
+<h3>4回生 -第57代-現幹部</h3>
+
+
+<a href="currentMember/57th/iida.html"><img src="memberpict/iida2.jpg" alt="いいだ"></a>
+<a href="currentMember/57th/sigemasa.html"><img src="memberpict/sigemasa2.jpg" alt="しげまさ"></a>
+<a href="currentMember/57th/takesita.html"><img src="memberpict/takesita2.jpg" alt="たけした"></a>
+<a href="currentMember/57th/yosida.html"><img src="memberpict/yosida2.jpg" alt="よしだ"></a>
+</p>
+<p>個性輝く4回</p>
+
+
+
+<h3>3回生 -第58代-</h3>
+
+
+
+<a href="currentMember/58th/oosato.html"><img src="memberpict/oosato2.jpg" alt="おおさと"></a>
+<a href="currentMember/58th/kawabata.html"><img src="memberpict/kawabata2.jpg" alt="かわばた"></a>
+<a href="currentMember/58th/seike.html"><img src="memberpict/seike2.jpg" alt="せいけ"></a>
+<a href="currentMember/58th/hiyama.html"><img src="memberpict/hiyama2.jpg" alt="ひやま"></a>
+<a href="currentMember/58th/makino.html"><img src="memberpict/makino2.jpg" alt="まきの"></a>
+<a href="currentMember/58th/miyamoto.html"><img src="memberpict/miyamoto2.jpg" alt="みやもと"></a>
+<a href="currentMember/58th/yokogi.html"><img src="memberpict/yokogi2.jpg" alt="よこぎ"></a>
+</p>
+<p>頑張れ3回</p>
+
+<h3>2回生 -第59代-</h3>
+
+
+<a href="currentMember/59th/iriekengo.html"><img src="memberpict/iriekengo2.jpg" alt="いりえ"></a>
+<a href="currentMember/59th/tanaka.html"><img src="memberpict/tanaka2.jpg" alt="たなか"></a>
+<a href="currentMember/59th/honda.html"><img src="memberpict/honda2.jpg" alt="ほんだ"></a>
+</p>
+<p>激動の2回</p>
+
+<!--一回生はこれからいなくなるので一旦コメントアウトします。
+<h3>1回生　-第59代-</h3>
+
+<a href="iriekengo.html"><img src="memberpict/iriekengo.jpg" alt="いりえ"></a>
+<a href="tanaka.html"><img src="memberpict/tanaka.jpg" alt="たなか"></a>
+<a href="honda.html"><img src="memberpict/honda.jpg" alt="ほんだ"></a>
+</p>
+<p>激アツの一回</p>
+-->
+
+<h3>留学生</h3>
+
+
+<a href="currentMember/foreigner/ata.html"><img src="memberpict/ata.jpg" alt="あた"></a>
+<a href="currentMember/foreigner/nanji.html"><img src="memberpict/nanji.JPG" alt="ナンジ"></a>
+<!--<img src="memberpict/tinn.JPG" alt="ちん"></a>-->
+<a href="currentMember/foreigner/leo.html"><img src="memberpict/leo.jpg" alt="れお"></a>
+<a href="currentMember/foreigner/sunday.html"><img src="memberpict/sunday.jpg" alt="サンデー"></a>
+
+
+</p>
+<p>学年の枠を超えたスケールの留学生</p>
+
+
+<p><a href="index.html">TOPに戻る</a></p>
+
+</div>
+</body>
+</html>

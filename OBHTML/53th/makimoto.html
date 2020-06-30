@@ -1,0 +1,107 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="hptop.css">
+<title>京都大学少林寺拳法部</title>
+
+<script src="./js/jquery-1.10.2.min.js"></script>
+<script>
+$(function() {
+	const MENU_HTML = "menu.html";
+	function setNavi () {
+		$.get(
+			MENU_HTML,
+			function (data) {
+				$('.menu').html(data)
+			}
+		);
+	}
+	setNavi();
+});
+</script>
+
+<style type="text/css">
+
+.menu {
+	font-size: 1.5em;
+	width : auto; /* リキッドデザインにするため*/
+	height : 30px;
+	background-color : midnightblue;
+}
+
+.menu ul {
+	margin; 0;
+	padding: 0;
+	width: 710px; /*　横幅の最小値 */
+}
+
+.menu li {
+	list-style-type: none;
+	float: left;
+}
+
+.menu li a {
+	display: block;
+	width: 100px;
+	line-height: 30px;
+	border-right: solid 1px #ffffff;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	background-color: navy;
+}
+.menu li a:hover {
+	background-color: firebrick;
+}
+
+</style>
+
+
+
+</head>
+<body>
+<div id="main">
+
+<h1>京都大学体育会少林寺拳法部</h1>
+
+<div class="menu"><ul>
+<li><a href="menu1.html">新入生へ</a></li>
+<li><a href="menu2.html">活動内容</a></li>
+<li><a href="menu3.html">部員紹介</a></li>
+<li><a href="menu4.html">写真</a></li>
+<li><a href="menu5.html">動画</a></li>
+<li><a href="menu6.html">叡拳会</a></li>
+<li><a href="menu7.html">リンク</a></li>
+</ul></div>
+
+
+
+
+<h2>OB紹介</h2>
+
+<h3>53代</h3>
+
+<h1>牧本　梨奈</h1>
+
+<p>
+<img src="memberpict/bigmakimoto.jpg" alt="bigまきもと">
+</p>
+
+<p>教長。3段。本当に喋るの苦手。手束と組んで全国4位。</p>
+
+<table border="3">
+<tr><td>学部</td><td>農学部資源生物科学科</td></tr>
+<tr><td>出身</td><td>広島県</td></tr>
+<tr><td>身長・体重</td><td>155㎝</td></tr>
+<tr><td>少林寺拳法を始めた理由</td><td>武道にあこがれたから</td></tr>
+<tr><td>経験スポーツ</td><td>少林寺</td></tr>
+<tr><td>特技</td><td>等分するの上手いです！</td></tr>
+<tr><td>座右の銘</td><td>努力は無にならず</td></tr>
+</table>
+
+<p><a href="matsumura.html">次へ</a></p>
+<p><a href="index.html">TOPに戻る</a></p>
+
+</div>
+</body>
+</html>

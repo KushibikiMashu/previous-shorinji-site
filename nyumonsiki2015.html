@@ -1,0 +1,113 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="hptop.css">
+<title>京都大学少林寺拳法部</title>
+
+<script src="./js/jquery-1.10.2.min.js"></script>
+<script>
+$(function() {
+	const MENU_HTML = "menu.html";
+	function setNavi () {
+		$.get(
+			MENU_HTML,
+			function (data) {
+				$('.menu').html(data)
+			}
+		);
+	}
+	setNavi();
+});
+</script>
+
+<style type="text/css">
+
+.menu {
+	font-size: 1.5em;
+	width : auto; /* リキッドデザインにするため*/
+	height : 30px;
+	background-color : midnightblue;
+}
+
+.menu ul {
+	margin; 0;
+	padding: 0;
+	width: 710px; /*　横幅の最小値 */
+}
+
+.menu li {
+	list-style-type: none;
+	float: left;
+}
+
+.menu li a {
+	display: block;
+	width: 100px;
+	line-height: 30px;
+	border-right: solid 1px #ffffff;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	background-color: navy;
+}
+.menu li a:hover {
+	background-color: firebrick;
+}
+
+</style>
+
+
+
+</head>
+<body>
+<div id="main">
+
+<h1>京都大学体育会少林寺拳法部</h1>
+
+<div class="menu"><ul>
+<li><a href="menu1.html">新入生へ</a></li>
+<li><a href="menu2.html">活動内容</a></li>
+<li><a href="menu3.html">部員紹介</a></li>
+<li><a href="menu4.html">写真</a></li>
+<li><a href="menu5.html">動画</a></li>
+<li><a href="menu6.html">叡拳会</a></li>
+<li><a href="menu7.html">リンク</a></li>
+</ul></div>
+
+
+
+
+<h2>写真</h2>
+
+
+
+<h1>入門式（2015年度）</h1>
+
+
+<p>
+<img src="pict/15nyumonshiki1.jpg" alt="新歓の写真" align="left">鎮魂行の様子。西田主将の主座で行われます。一回生、初めての道訓に戸惑いを隠せないようです（笑）</p>
+<br clear="left">
+<p>
+<img src="pict/15nyumonshiki2.jpg" alt="新歓の写真" align="left">進行表。橋本が筆で書きました。すごいね。</p>
+<br clear="left">
+<p>
+<img src="pict/15nyumonshiki3.jpg" alt="新歓の写真" align="left">川崎、手束による奉納演武。1回生がちゃんと演武を見るのはこれが初めて？牧本は2年連続で奉納演武してますね。</p>
+<br clear="left">
+<p>
+<img src="pict/15nyumonshiki4.jpg" alt="新歓の写真" align="left">八木先生にご講話いただきました。これからしんどいこともいっぱいあるだろうけど、部員全員で頑張ってください、というような内容でした（少々まとめ過ぎてる感がありますがご了承ください）。京大少林寺拳法部一丸となって頑張ります！！</p>
+<br clear="left">
+<p>
+<img src="pict/15nyumonshiki5.jpg" alt="新歓の写真" >集合写真です！１回生は初々しいですね！入門おめでとう！ともに強くなろう！</p>
+
+<img src="pict/15nyumonshiki6.jpg" alt="新歓の写真" >おまけ。<br>その夜の新歓コンパ中の漫才の様子です。</p>
+
+
+
+
+
+<p><a href="nyumonsiki.html">ひとつ前に戻る</a></p>
+<p><a href="index.html">TOPに戻る</a></p>
+
+</div>
+</body>
+</html>

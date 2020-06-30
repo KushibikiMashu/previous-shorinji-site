@@ -1,0 +1,135 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="hptop.css">
+<title>京都大学少林寺拳法部</title>
+
+<script src="./js/jquery-1.10.2.min.js"></script>
+<script>
+$(function() {
+	const MENU_HTML = "menu.html";
+	function setNavi () {
+		$.get(
+			MENU_HTML,
+			function (data) {
+				$('.menu').html(data)
+			}
+		);
+	}
+	setNavi();
+});
+</script>
+
+<style type="text/css">
+
+.menu {
+	font-size: 1.5em;
+	width : auto; /* リキッドデザインにするため*/
+	height : 30px;
+	background-color : midnightblue;
+}
+
+.menu ul {
+	margin; 0;
+	padding: 0;
+	width: 710px; /*　横幅の最小値 */
+}
+
+.menu li {
+	list-style-type: none;
+	float: left;
+}
+
+.menu li a {
+	display: block;
+	width: 100px;
+	line-height: 30px;
+	border-right: solid 1px #ffffff;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	background-color: navy;
+}
+.menu li a:hover {
+	background-color: firebrick;
+}
+
+</style>
+
+
+
+</head>
+<body>
+<div id="main">
+
+<h1>京都大学体育会少林寺拳法部</h1>
+
+<div class="menu"><ul>
+<li><a href="menu1.html">新入生へ</a></li>
+<li><a href="menu2.html">活動内容</a></li>
+<li><a href="menu3.html">部員紹介</a></li>
+<li><a href="menu4.html">写真</a></li>
+<li><a href="menu5.html">動画</a></li>
+<li><a href="menu6.html">叡拳会</a></li>
+<li><a href="menu7.html">リンク</a></li>
+</ul></div>
+
+
+<h2>写真</h2>
+
+
+<h1>大会（2014年度）</h1>
+
+<h2>関西学生大会</h2>
+<p>
+<img src="pict/14kansaigakusei1.jpg" alt="大会" align="left">これしか写真がなかった…。</p>
+<br clear="left">
+
+<h2>全国大会</h2>
+<p>
+<img src="pict/14zenkoku1.jpg" alt="大会" align="left">全国大会。コートの色が青いですね。</p>
+<br clear="left">
+
+<p><img src="pict/14zenkoku2.jpg" alt="大会" align="left">行ったメンバーで写真！</p>
+<br clear="left">
+<h2>全日本学生大会</h2>
+
+<p>
+<img src="pict/14zenniti1.jpg" alt="大会" align="left">日本武道館にて、全日です。</p>
+<br clear="left">
+<p>
+<img src="pict/14zenniti2.jpg" alt="大会" align="left">手束松村が全日優勝！おめでとう！</p>
+<br clear="left">
+<h2>関西新人大会</h2>
+
+<p>
+<img src="pict/14kansaishinjinn3.jpg" alt="大会" align="left">前の大会で4回生は引退。新人大会です！</p>
+<br clear="left">
+<p>
+<img src="pict/14kansaishinjinn1.jpg" alt="大会" align="left">もちろん運用法もやってます。</p>
+<br clear="left">
+
+<p><img src="pict/14kansaishinjinn2.jpg" alt="大会" align="left">やっぱり賞をとる手束松村。</p>
+<br clear="left">
+
+<h2>京都府学生大会</h2>
+
+<p>
+<img src="pict/14kyotogakusei1.JPG" alt="大会" align="left">京都府の大学生のみが出場する大会です。</p>
+<br clear="left">
+<p>
+<img src="pict/14kyotogakusei2.JPG" alt="大会" align="left">この二人が入賞しました！54代からの初入賞！おめでとう！</p>
+<br clear="left">
+
+<p><img src="pict/14kyotogakusei3.JPG" alt="大会" align="left">女子団演も出ています。</p>
+<br clear="left">
+
+
+<p><a href="menu4.html">ひとつ前に戻る</a></p>
+<p><a href="index.html">TOPに戻る</a></p>
+
+</div>
+</body>
+</html>
+
+
